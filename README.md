@@ -2,12 +2,14 @@
 A terminal based mobile phone file manager, support Android platform so far. Implementing using adb
 
 # Feature
-(cd + serial number of file) to enter a directory, (cd ..) to return upper level directory
+  1.Enter 'n' to go to next page, 'b' to go to previous page, 'q' to exit the program
 
-(push + local file path) to push local file to phone
+  2.(cd + serial number of file) to enter a directory, (cd ..) to return upper level directory
 
-(pull + serial number of file) to pull file corresponding to serial number to local
+  3.(push + local file path) to push local file to phone
 
-(rm + serial number of file) to remove file corresponding to serial number
+  4.(pull + serial number of file) to pull file corresponding to serial number to local
 
-All support multiple input. Command cd is separated by '/', remaining commands are separated by ' '(space).
+  5.(rm + serial number of file) to remove file corresponding to serial number
+
+  All support multiple input. Command cd is separated by '/', remaining commands are separated by ' '(space).
